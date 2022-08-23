@@ -41,13 +41,13 @@ public class MainActivity extends AppCompatActivity implements AppView{
             }
         });
     }
-    
+
     @Override
     public void onGetAppName(String string) {
         textView.setText(string);
     }
 
-    //view: Activity with Text & Button
     //Model: Model.java class
+    //View: Activity with Text & Button
     //Presenter: Presenter.java
 }
